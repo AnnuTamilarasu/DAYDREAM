@@ -2,6 +2,7 @@ import javax.swing.*;
 
 public class HomePg extends JPanel {
     public HomePg() {
+        this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));                                 
         JLabel label = new JLabel("Welcome to the Home Page");
         this.add(label);
         this.setSize(400, 300);
