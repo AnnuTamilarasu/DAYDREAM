@@ -2,15 +2,13 @@ import javax.swing.*;
 
 public class Main extends JFrame {
     public static void main(String[] args) {
-        Main main = new Main();
-        main.setVisible(true);
-    }
-    public Main(){
-        this.setSize(400, 300);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //this.setVisible(true);
+        JFrame mainFrame = new JFrame();
+        mainFrame.setSize(400, 300);
+        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         HomePg homePg = new HomePg();
-        this.add(homePg);
-        this.setVisible(true);
+        mainFrame.add(homePg);
+
+        mainFrame.setVisible(true);
     }
 }
