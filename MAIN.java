@@ -5,6 +5,7 @@ public class Main extends JFrame {
         new Main();
     }
     public Main(){
-        
+        HomePg homePg = new HomePg();
+        homePg.setVisible(true);
     }
 }
