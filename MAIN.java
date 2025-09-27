@@ -5,6 +5,9 @@ public class Main extends JFrame {
         new Main();
     }
     public Main(){
+        this.setSize(400, 300);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setVisible(true);
         HomePg homePg = new HomePg();
         homePg.setVisible(true);
     }
